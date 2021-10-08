@@ -1,6 +1,6 @@
 # SistemaEstudantil
 
-Este projeto está sendo desenvolvido para aplicar os conhecimentos que estou adquirindo em orientação a objetos em Java
+Este projeto está sendo desenvolvido para aplicar os conhecimentos que estou adquirindo ao estudar orientação a objetos em Java
 
 # Tecnologias:
 * Java versão 8.0
