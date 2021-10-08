@@ -1,0 +1,39 @@
+package sistema.modelo.entidade.usuario;
+
+public abstract class Pessoa extends Usuario {
+
+	private String nome;
+	private int matricula;
+	private int idade;
+
+	public Pessoa(String login, String senha, String nome, int matricula, int idade) {
+		super(login, senha);
+		setNome(nome);
+		setMatricula(matricula);
+		setIdade(idade);
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public int getMatricula() {
+		return matricula;
+	}
+
+	public void setMatricula(int matricula) {
+		this.matricula = matricula;
+	}
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+}
